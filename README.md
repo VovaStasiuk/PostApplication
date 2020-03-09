@@ -16,6 +16,6 @@ Django:
 $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
-$ run auto_bot.py
+$ python auto_bot.py
 ```
 For check result auto_bot.py need create super user and login in django-admin panel
