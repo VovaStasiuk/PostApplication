@@ -1,0 +1,20 @@
+from os import environ
+
+
+environ.setdefault('HUNTER_API_KEY', '########################')
+
+environ.setdefault('CLEARBIT_API_KEY', '##########################')
+environ.setdefault('CLEARBIT_SECRET_KEY', '###########################')
+
+DEBUG = True
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'blog',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
