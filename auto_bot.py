@@ -61,7 +61,6 @@ def like():
         for j in range(count_like):
             index_post = random.randint(0, len(posts)-1)
             post = posts[index_post]
-            print(post)
             requests.post(f'http://127.0.0.1:8000/api/v1/posts/{post["id"]}/like/', headers=headers)
 
 
