@@ -8,7 +8,7 @@ Create venv:
 $ python3 -m venv .env
 $ source .env/bin/activate
 $ pip install -r requirements.txt
-$ cp .src/app/local_settings.py.example .src/app/local_settings.py # Need insert api your Api key for hunter and clearbit
+$ cp .blog/local_settings.py.example .blog/local_settings.py # Need insert api your Api key for hunter and clearbit
 ```
 
 Django:
