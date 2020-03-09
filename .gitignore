@@ -1,0 +1,17 @@
+.vscode
+.idea
+
+env
+venv
+**/migrations/**
+!**/migrations/__init__.py
+__pycache__
+static_content/*
+!static_content/media
+logs
+pids
+*.py[cod]
+*.sql
+*.sqlite3
+
+blog/local_settings.py
